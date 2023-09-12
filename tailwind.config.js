@@ -4,17 +4,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'lackedark': '#490b3e',
-        'lackered': '#bc1e51',
-        'lackeyellow': '#f1b813',
-        'lackewhite': '#fad1d7',
+        first: "#2B3A55",
+        second: "#CE7777",
+        third: "#E8C4C4",
+        fourth: "#F2E5E5",
       },
       backgroundImage: {
-        "backgg": "url('/rr.jpg')"
+        backGround: "url('/src/images/background.jpg')",
       },
       fontFamily: {
-        raleway : ['"Raleway"', 'sans-serif']
-    }
+        raleway: ['"Raleway"', "sans-serif"],
+      },
     },
   },
   plugins: [],
